@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 
 # Конфигурация OpenRouter
-AI_TOKEN = os.getenv('AI_TOKEN')
+AI_TOKEN = os.getenv('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')
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 DEFAULT_MODEL = "anthropic/claude-3-opus:beta"  # Можно изменить на другую модель
 MAX_TOKENS = 500  # Ограничение на количество токенов
